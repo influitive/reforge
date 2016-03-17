@@ -1,0 +1,27 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "reforge:serve --entry ./main.js",
+    "test": "BABEL_ENV=test babel-tape-runner \"src/**/*/*.test.js\" | tap-spec",
+    "test:watch": "nodemon --quiet --exec \"npm run --silent test\" --watch src",
+    "build": "reforge:build",
+    "lint": "eslint .",
+    "generate": "reforge:gen"
+  },
+  "pre-commit": {
+    "run": "test, lint"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reforge": "0.0.1-rc5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

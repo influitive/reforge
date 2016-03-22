@@ -12,6 +12,7 @@ program
   .version(pkg.version)
   .usage('[options]')
   .option('-c, --config [configPath]', 'Webpack config to be merge into reforge\'s config')
+  .option('-m, --mountNode [nodeName]', 'name of dom id that your app will mount to')
   .parse(process.argv);
 
 process.env.NODE_ENV = 'production';
@@ -22,5 +23,6 @@ const buildConfig = require(path.join(__dirname,'..','config')).default;
 kotatsu.build('front', {
   config: buildConfig(program.config),
   babel: true,
-  minify: true
+  minify: true,
+  mountNode: program.mountNode
 });

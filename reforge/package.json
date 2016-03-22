@@ -1,6 +1,6 @@
 {
   "name": "reforge",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Common dependency management and utility functions used to manage a full application.",
   "main": "lib/reforge.js",
   "bin": {

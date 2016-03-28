@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "reforge-version": "MANAGED BY PUBLISH",
   "description": "command line tool for reforge",
-  "main": "index.js",
+  "main": "reforge-cli.js",
   "bin": {
     "reforge-cli": "./reforge-cli.js"
   },

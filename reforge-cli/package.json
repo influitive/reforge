@@ -1,6 +1,6 @@
 {
   "name": "reforge-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "reforge-version": "MANAGED BY PUBLISH",
   "description": "command line tool for reforge",
   "main": "reforge-cli.js",

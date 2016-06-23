@@ -1,0 +1,54 @@
+{
+  "name": "reforge",
+  "version": "1.0.0",
+  "description": "Shared configs and utilities used for influitive front-end projects.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib && babel --quiet src -d lib",
+    "prepublish": "npm run build"
+  },
+  "files": [
+    "lib",
+    "config",
+    "scripts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/influitive/reforge.git"
+  },
+  "author": "paul.sachs@influitive.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/influitive/reforge/issues"
+  },
+  "homepage": "https://github.com/influitive/reforge#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^2.13.1",
+    "eslint-config-reforge": "^1.0.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.3.6",
+    "axios": "^0.12.0",
+    "chalk": "^1.1.3",
+    "css-loader": "^0.23.1",
+    "dotenv": "^2.0.0",
+    "dotenv-expand": "^0.1.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "lodash.values": "^4.1.0",
+    "path": "^0.12.7",
+    "postcss-loader": "^0.9.1",
+    "postcss-nested": "^1.0.0",
+    "react-redux-provide": "^5.2.3",
+    "redux-logger": "^2.6.1",
+    "rucksack-css": "^0.8.6",
+    "style-loader": "^0.13.1",
+    "url-join": "^1.1.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-manifest-plugin": "^1.0.1",
+    "webpack-merge": "^0.14.0"
+  }
+}

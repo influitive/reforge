@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "rm -rf lib && babel --quiet src -d lib",
+    "watch": "babel src -d lib -w --quiet",
     "prepublish": "npm run build"
   },
   "files": [

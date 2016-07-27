@@ -71,7 +71,7 @@ Sets up redux devtools on all the providers included.
 
 ## Technologies ##
 
-[Postcss](https://github.com/postcss/postcss)
-[Recompose](https://github.com/acdlite/recompose)
-[Webpack](https://github.com/webpack/webpack)
-[react-redux-provide](https://github.com/loggur/react-redux-provide)
+- [Postcss](https://github.com/postcss/postcss)
+- [Recompose](https://github.com/acdlite/recompose)
+- [Webpack](https://github.com/webpack/webpack)
+- [react-redux-provide](https://github.com/loggur/react-redux-provide)

@@ -63,7 +63,15 @@ you need from the main 'reforge' package like so:
 import { connectProvidersToDevTools } from 'reforge';
 ```
 
+
 ### connectProvidersToDevTools ###
 
 This function takes an object where the each key/object pair is a provider description, built for use by react-redux-provide.
 Sets up redux devtools on all the providers included.
+
+## Technologies ##
+
+[Postcss](https://github.com/postcss/postcss)
+[Recompose](https://github.com/acdlite/recompose)
+[Webpack](https://github.com/webpack/webpack)
+[react-redux-provide](https://github.com/loggur/react-redux-provide)

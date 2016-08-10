@@ -76,10 +76,10 @@ if (TARGET === 'build') {
   });
 
   if (process.env.NODE_ENV === 'production') {
-    config.plugins = [
+    config.plugins = config.plugins.concat([
       new webpack.optimize.UglifyJsPlugin({ comments: false }),
       new webpack.optimize.DedupePlugin()
-    ].concat(config.plugins);
+    ]);
   }
 
   module.exports = config;

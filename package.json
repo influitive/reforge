@@ -1,6 +1,6 @@
 {
   "name": "reforge",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shared configs and utilities used for influitive front-end projects.",
   "main": "lib/index.js",
   "scripts": {

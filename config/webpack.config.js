@@ -77,7 +77,7 @@ if (TARGET === 'build') {
 
   if (process.env.NODE_ENV === 'production') {
     config.plugins = config.plugins.concat([
-      new webpack.optimize.UglifyJsPlugin({ comments: false, warnings: false }),
+      new webpack.optimize.UglifyJsPlugin({ comments: false, compress: { warnings: false } }),
       new webpack.optimize.DedupePlugin()
     ]);
   }
